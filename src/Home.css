@@ -1,0 +1,10 @@
+.home_section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+    height: 120vh;
+}
+
+ .images1, .images{
+    height: 80vh;
+}
