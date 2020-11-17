@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 30px;
+    
 }
 
 
@@ -9,18 +10,22 @@
     height: 75vh;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 798px) {
     .home_section {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 0;
+        padding: 30px;
+        align-items: center;
     }
 
     .home{
         display: flex;
         flex-direction: column;
         padding: 30px;
+        justify-content: center;
+        align-items: center;
+
     }
     
 }
