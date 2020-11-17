@@ -2,9 +2,26 @@
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 30px;
-    height: 120vh;
+    
 }
 
- .images1, .images{
-    height: 80vh;
+
+ .images1{
+    height: 75vh;
+}
+
+@media (max-width: 600px) {
+    .home_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    
 }
