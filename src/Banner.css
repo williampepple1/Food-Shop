@@ -46,7 +46,7 @@ width: 300px;
 
 @media screen and (max-width: 480px) {
     .banner{
-        width: 100vw;
-        margin-left: 0;
+        display: none;
+        
     }
 }
