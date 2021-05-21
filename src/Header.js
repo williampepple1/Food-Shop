@@ -19,7 +19,7 @@ function Header() {
       <div className='header_right'>
         <p>Order your meal</p>
         <ShoppingCartIcon />
-        <ExpandMoreIcon/>
+        <ExpandMoreIcon className="expand"/>
         <Avatar/>
       </div>
     </div>

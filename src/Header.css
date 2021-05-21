@@ -49,7 +49,6 @@
     }
     .header_right{
         width: 60px;
-        margin-left: 2px;
 
     }
     .header_center{
@@ -57,10 +56,12 @@
         width: 40px;
     }
     .header_icon{
-        margin-right: 2px;
         width: 60px;
     }
     .search-icon{
+        display: none !important; 
+    }
+    .expand{
         display: none !important; 
     }
 }
