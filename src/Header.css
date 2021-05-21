@@ -46,6 +46,7 @@
 @media screen and (max-width: 520px) {
     .header{
         width: 100vw;
+        justify-content: space-between;
     }
     .header_right{
         width: 60px;
@@ -61,7 +62,5 @@
     .search-icon{
         display: none !important; 
     }
-    .expand{
-        display: none !important; 
-    }
+    
 }
