@@ -46,7 +46,10 @@ width: 300px;
 
 @media screen and (max-width: 480px) {
     .banner_info{
-        display: none;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 60vw;
         
     }
 }
