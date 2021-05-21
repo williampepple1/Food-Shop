@@ -45,19 +45,18 @@
 
 @media screen and (max-width: 520px) {
     .header{
-        width: 100%;
+        width: 100vw;
     }
     .header_right{
-        flex-shrink: 2;
         width: 60px;
 
     }
     .header_center{
-        flex-shrink: 1;
+        
         width: 40px;
     }
     .header_icon{
-        flex-shrink: 1;
+      
         width: 60px;
     }
     .search-icon{
