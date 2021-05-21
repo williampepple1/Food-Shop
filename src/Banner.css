@@ -43,3 +43,10 @@ width: 300px;
     text-transform: inherit !important;
     color: #ff7779 !important;
 }
+
+@media screen and (max-width: 480px) {
+    .banner{
+        width: 100vw;
+        margin-left: 0;
+    }
+}

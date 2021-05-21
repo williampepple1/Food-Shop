@@ -14,11 +14,11 @@ function Header() {
 
       <div className='header_center'>
         <input type = 'text' />
-        <SearchIcon />  
+        <SearchIcon className="search-icon"/>  
       </div>
       <div className='header_right'>
         <p>Order your meal</p>
-        <ShoppingCartIcon/>
+        <ShoppingCartIcon />
         <ExpandMoreIcon/>
         <Avatar/>
       </div>
